@@ -1,0 +1,25 @@
+.main-CTA {
+  align-items: center;
+  background-color: var(--accent);
+  border-radius: 30px;
+  display: inline-flex;
+  gap: 10px;
+  justify-content: center;
+  padding: 15px 40px;
+  position: relative;
+}
+
+.main-CTA .request-an-estimate {
+  color: var(--white-element);
+  font-family: var(--accent-text-font-family);
+  font-size: var(--accent-text-font-size);
+  font-style: var(--accent-text-font-style);
+  font-weight: var(--accent-text-font-weight);
+  letter-spacing: var(--accent-text-letter-spacing);
+  line-height: var(--accent-text-line-height);
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}

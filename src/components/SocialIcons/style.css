@@ -1,0 +1,29 @@
+.social-icons {
+  height: 23px;
+  position: relative;
+  width: 119px;
+}
+
+.social-icons .shape {
+  height: 22px;
+  left: 92px;
+  position: absolute;
+  top: 0;
+  width: 27px;
+}
+
+.social-icons .facebook {
+  height: 22px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 11px;
+}
+
+.social-icons .combined-shape {
+  height: 22px;
+  left: 41px;
+  position: absolute;
+  top: 0;
+  width: 22px;
+}

@@ -1,0 +1,15 @@
+.portrait-placeholder {
+  background-color: #f3f5f8;
+  border-radius: 38.5px;
+  height: 77px;
+  position: relative;
+  width: 77px;
+}
+
+.portrait-placeholder .union {
+  height: 27px;
+  left: 24px;
+  position: absolute;
+  top: 24px;
+  width: 27px;
+}
