@@ -194,6 +194,7 @@
 }
 
 .homepage .frame-3 {
+  margin-left: 40%;
   align-items: flex-start;
   display: flex;
   flex-direction: column;
@@ -299,7 +300,6 @@
   display: inline-flex;
   flex: 0 0 auto;
   gap: 10px;
-  padding: 216px 257px;
   position: relative;
 }
 

@@ -28,7 +28,8 @@ export const Homepage = () => {
       <div className="hero">
         <div className="frame-2">
           <img className="fast-reliable-hand" alt="Fast reliable hand" src="/img/fast-reliable-hand.png" />
-          <div className="frame-3">
+          <a href="google.com">
+          <div className="frame-3" >
             <p className="lorem-ipsum-dolor-si">
               Zapraszamy na najlepsze dania w Twojej
               <br />
@@ -36,6 +37,7 @@ export const Homepage = () => {
             </p>
             <MainCta className="main-CTA-instance" text="Poznaj Nasze Menu" />
           </div>
+          </a>
         </div>
         <div className="frame-4">
           <img className="img" alt="Group" src="/img/group-456.png" />
@@ -46,50 +48,38 @@ export const Homepage = () => {
         <div className="frame-5">
           <div className="maintenance">Dlaczego My?</div>
           <p className="p">
-            Lorem Ipsum Is Simply Dummy Text Of The Printing And Typesetting Industry. Lorem Ipsum Has Been The
-            Industry&#39;s Standard Dummy Text Ever Since The 1500s, When An Unknown Printer Took A Galley Of Type And
-            Scrambled It To Make A Type Specimen Book. It Has Survived Not Only Five Centuries, But Also The Leap Into
-            Electronic Typesetting, Remaining Essentially Unchanged. It Was Popularised In The 1960s With The Release Of
-            Letraset Sheets Containing Lorem Ipsum Passages, And More Recently With Desktop Publishing Software Like
-            Aldus Pagemaker Including Versions Of Lorem Ipsum.
+          Po pierwsze, nasza restauracja to oaza smaku. Kuchnia, którą oferujemy, to nie tylko zestaw potraw, ale prawdziwa symfonia smaków, połączenie tradycji z nowoczesnością. Dbamy o to, aby każdy składnik był starannie wyselekcjonowany, a każda potrawa stanowiła prawdziwe arcydzieło kulinarnego rzemiosła. Dlaczego my? Bo wierzymy, że jedzenie powinno być nie tylko pożywieniem dla ciała, ale również uczuciem dla duszy.
           </p>
         </div>
-        <div className="union-wrapper">
-          <img className="union-3" alt="Union" src="/img/union-2.svg" />
-        </div>
+        <img className="union-wrapper"src="/img/dlaczego.png" >
+   
+        </img>
       </div>
       <div className="our-events">
         <div className="images">
           <div className="frame-6">
-            <div className="img-wrapper">
-              <img className="union-4" alt="Union" src="/img/union-3.svg" />
-            </div>
-            <div className="group-2">
-              <img className="union-5" alt="Union" src="/img/union-4.svg" />
-            </div>
+            <img className="img-wrapper" src="/img/union-4.png">
+            </img>
+            <img className="group-2" src="/img/union-5.png">
+            </img>
           </div>
           <div className="frame-7">
-            <div className="group-3">
-              <img className="union-6" alt="Union" src="/img/union-5.svg" />
-            </div>
-            <div className="group-4">
-              <img className="union-7" alt="Union" src="/img/union-6.svg" />
-            </div>
+            <img className="group-3">
+
+            </img>
+            <img className="group-4">
+
+            </img>
           </div>
         </div>
         <div className="frame-8">
           <div className="nasz-catering">Nasz Catering</div>
           <div className="frame-9">
             <p className="text-wrapper-2">
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem ally unchanged. It was
-              popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more
-              recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+            Nasz catering to niezrównane doświadczenie kulinarne dostosowane do Twoich potrzeb. Zestawiamy świeże, lokalne składniki z kreatywnością kulinarną, aby stworzyć potrawy, które zachwycą Twoich gości. Dlaczego my? Nasz zespół doświadczonych kucharzy i obsługi zatroszczy się o każdy detal, sprawiając, że Twoje wydarzenie będzie niezapomniane. 
             </p>
             <p className="lorem-ipsum-is">
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-              industry&#39;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
-              scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into
-              electronic typesetting, remaining essentially unchanged.
+            Bez względu na to, czy to kameralna uroczystość czy duża konferencja, nasz catering oferuje różnorodność smaków, elegancję i profesjonalizm. Daj nam przyjemność obsłużyć Cię i spraw, aby smakowało nie tylko pysznie, ale także wyjątkowo.
             </p>
           </div>
         </div>
