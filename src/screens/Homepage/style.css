@@ -2,9 +2,12 @@
   align-items: flex-start;
   display: inline-flex;
   flex-direction: column;
-  position: relative;
 }
-
+.div{
+  display: flex; 
+  justify-content: center; 
+  height: 1920;
+}
 .homepage .header {
   align-items: flex-start;
   background-color: transparent;
@@ -726,7 +729,7 @@
 }
 
 .homepage .rectangle {
-  background-color: #f3f5f8;
+  background-color: var(--accent);
   height: 470px;
   left: 0;
   position: absolute;
@@ -851,7 +854,6 @@
   background-color: transparent;
   display: inline-flex;
   flex-direction: column;
-  left: -2px;
   position: absolute;
   top: 5413px;
 }
@@ -863,8 +865,8 @@
   flex: 0 0 auto;
   gap: 233px;
   justify-content: center;
-  padding: 100px 80px;
-  position: relative;
+  padding: 100px 60px;
+  position: absolute;
   width: 1920px;
 }
 
@@ -943,19 +945,19 @@
 .homepage .group-wrapper {
   height: 43px;
   position: relative;
-  width: 1922px;
+  width: 1920px;
 }
 
 .homepage .group-8 {
   height: 43px;
-  width: 1924px;
+  width: 1920px;
 }
 
 .homepage .description-copy-wrapper {
   background-color: var(--accent);
   height: 43px;
   position: relative;
-  width: 1922px;
+  width: 1920px;
 }
 
 .homepage .description-copy-2 {

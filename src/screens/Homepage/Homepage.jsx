@@ -6,6 +6,7 @@ import "./style.css";
 
 export const Homepage = () => {
   return (
+    <div className="div">
     <div className="homepage">
       <header className="header">
         <div className="frame">
@@ -64,11 +65,9 @@ export const Homepage = () => {
             </img>
           </div>
           <div className="frame-7">
-            <img className="group-3">
-
+            <img className="group-3" src="/img/union-6.png">
             </img>
-            <img className="group-4">
-
+            <img className="group-4" src="/img/union-7.png">
             </img>
           </div>
         </div>
@@ -90,12 +89,8 @@ export const Homepage = () => {
           <div className="frame-11">
             <div className="overlap-group-wrapper">
               <div className="overlap-group">
-                <div className="group-copy-wrapper">
-                  <img className="group-copy" alt="Group copy" src="/img/group-8-copy.png" />
-                </div>
-                <div className="ellipse-wrapper">
-                  <img className="ellipse" alt="Ellipse" src="/img/ellipse-18.svg" />
-                </div>
+                <img className="group-copy-wrapper" src="/img/pizza.png">
+                </img>
               </div>
             </div>
             <div className="frame-12">
@@ -105,13 +100,9 @@ export const Homepage = () => {
           </div>
           <div className="div-2">
             <div className="overlap-group-wrapper">
-              <div className="overlap-group">
-                <div className="group-copy-wrapper">
-                  <img className="group-copy" alt="Group copy" src="/img/group-8-copy-1.png" />
-                </div>
-                <div className="group-5">
-                  <img className="ellipse" alt="Ellipse" src="/img/ellipse-18-1.svg" />
-                </div>
+            <div className="overlap-group">
+                <img className="group-copy-wrapper" src="/img/pizza.png">
+                </img>
               </div>
             </div>
             <div className="frame-12">
@@ -121,13 +112,9 @@ export const Homepage = () => {
           </div>
           <div className="frame-11">
             <div className="overlap-group-wrapper">
-              <div className="overlap-group">
-                <div className="group-copy-wrapper">
-                  <img className="group-copy" alt="Group copy" src="/img/group-8-copy-2.png" />
-                </div>
-                <div className="group-6">
-                  <img className="ellipse" alt="Ellipse" src="/img/ellipse-18-2.svg" />
-                </div>
+            <div className="overlap-group">
+                <img className="group-copy-wrapper" src="/img/pizza.png">
+                </img>
               </div>
             </div>
             <div className="frame-12">
@@ -137,13 +124,9 @@ export const Homepage = () => {
           </div>
           <div className="div-2">
             <div className="overlap-group-wrapper">
-              <div className="overlap-group">
-                <div className="group-copy-wrapper">
-                  <img className="group-copy" alt="Group copy" src="/img/group-8-copy-3.png" />
-                </div>
-                <div className="group-7">
-                  <img className="ellipse" alt="Ellipse" src="/img/ellipse-18-3.svg" />
-                </div>
+            <div className="overlap-group">
+                <img className="group-copy-wrapper" src="/img/pizza.png">
+                </img>
               </div>
             </div>
             <div className="frame-12">
@@ -156,7 +139,7 @@ export const Homepage = () => {
       <div className="CTA">
         <div className="fast-reliable-hand-2">Zobacz Nasze Promocje</div>
         <p className="lorem-ipsum-dolor-si-3">
-          Lorem Ipsum Is Simply Dummy Text Of The Printing And Typesetting Industry
+        Zapraszamy do odkrywania naszych atrakcyjnych promocji! "Zobacz Nasze Promocje" to brama do pełnego smaku przy oszczędnościach. Dla naszych klientów przygotowaliśmy wyjątkowe oferty, które sprawią, że Twoje doświadczenie kulinarne stanie się jeszcze bardziej satysfakcjonujące. Czy to specjalne zestawy, rabaty na zamówienia większe czy unikalne wydarzenia kulinarne – nasze promocje są skrojone na miarę Twoich oczekiwań. Dlaczego warto zajrzeć? Bo dobre jedzenie zasługuje na wyjątkową okazję, a nasze promocje sprawią, że smakowanie będzie nie tylko pełne wrażeń, ale także przyjazne dla Twojego portfela. Odkryj, jak możemy umilić Ci gastronomiczne chwile!
         </p>
         <MainCta className="main-CTA-instance" text="Promocje" />
       </div>
@@ -165,9 +148,8 @@ export const Homepage = () => {
           <div className="overlap">
             <div className="rectangle" />
             <div className="div-wrapper">
-              <div className="overlap-group-2">
-                <img className="union-8" alt="Union" src="/img/union-11.svg" />
-              </div>
+              <img className="overlap-group-2" src="/img/opinie.png">
+              </img>
             </div>
           </div>
         </div>
@@ -204,7 +186,7 @@ export const Homepage = () => {
           <div className="frame-11">
             <div className="handyman-2">Smakosz</div>
             <p className="description-copy">
-              Lorem Ipsum Is Simply Dummy Text Of The Printing And Typesetting Industry
+              Sprawdź nasze social media!
             </p>
             <SocialIcons
               className="social-icons-instance"
@@ -216,7 +198,7 @@ export const Homepage = () => {
           <div className="frame-19">
             <p className="get-in-touch">Bądź Z Nami W Kontakcie</p>
             <div className="email-tophandyman-i">
-              Email: Kontact@smakosz.pl
+              Email: Kontakt@smakosz.com
               <br />
               telefon: 933-290-231
             </div>
@@ -234,6 +216,7 @@ export const Homepage = () => {
           </div>
         </div>
       </footer>
+    </div>
     </div>
   );
 };
